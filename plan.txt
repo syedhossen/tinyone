@@ -1,0 +1,19 @@
+font-family: 'PT Sans', sans-serif; 
+
+color================ 
+black :#010101
+       ash :#898989
+       yellow:#fcdb00
+
+       font-size===========
+       xxl-xl-lg       md     sm-col
+       header-font
+       22              22      20
+
+
+
+       padding=======
+
+       xxl-xl-lg       md     sm-col
+       header
+       20              20      10

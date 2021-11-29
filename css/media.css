@@ -1,15 +1,81 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
-					header {
-                   padding: 10px 0;
-				}
+header {
+         padding: 10px 0;
+	   }
 
-					.menu ul li a {
-					margin: 5px 0px 0px;
-					font-size: 20px;
-   					text-align: right;
-    
-				}
+.menu ul li a {
+	      margin: 5px 0px 0px;
+		  font-size: 20px;
+   		  text-align: right;
+    	}
+/*Slider Starts*/
+.slider{
+		  padding-bottom: 70px;
+	}
+.cid {
+          bottom: -60px;
+   }
+.cid [data-bs-target] {
+        width: 10px;
+        height: 10px;
+      /*background-color: #fff;
+        opacity: 0.5;*/
+     }
+/*Indicator Ends*/
+.s_text{
+	margin-top: 10px;
+}
+.s_text h1{
+	font-size: 25px;
+}
+.s_text h2{
+	margin: 10px 0;
+}
+.s_text p{
+	margin-bottom: 20px;	
+}
+.s_icons{}
+.s_icons li{
+	margin-right: 25px !important;
+}
+.s_icons  li i {
+	font-size: 35px;
+		
+}
+.cus_and{
+	width: 90%;
+	height: 90%;
+	margin-bottom: 20px;
+}
+/*Slider End*/
+
+/*Feature Starts*/
+ .feature{
+ 	padding-top: 50px;
+ 	padding-bottom: 70px;
+ 	}
+ 	.c_h1{
+ 		margin-bottom: 10px;
+        font-size: 25px;
+    }
+.c_p{
+	font-size: 18px;
+}
+.c_mt{
+	margin-top: 25px;
+}
+.f_icon i {
+    font-size: 40px;  
+}
+.f_text {
+    text-align: center;
+}
+.f_text h2 {
+    margin-bottom: 5px;
+    font-size: 20px;  
+}
+ 				/*Feature End*/
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -17,21 +83,95 @@
 					header {
                     padding: 10px 0;
 }
-
-					.menu ul li a {
+   				.menu ul li a {
 					margin: 5px 0px 0px;
 					font-size: 20px;
-    				text-align: right;
-    
+    			    text-align: right;
+   				}
+				/*Slider Starts*/
+				.slider{
+					padding-bottom: 60px;
 				}
+				.cid {
+                    bottom: -50px;
+    }
+.cid [data-bs-target] {
+        width: 10px;
+       height: 10px;
+      /*background-color: #fff;
+       opacity: 0.5;*/
+       }
+/*Indicator Ends*/
+.s_text{
+	margin-top: 20px;
+	}
+.s_text h1{
+	font-size: 25px;
+	}
+.s_text h2{
+	margin: 10px 0;
+	}
+.s_text p{
+	margin-bottom: 25px;
+	}
+.s_icons{}
+.s_icons li{
+	margin-right: 25px !important;
+}
+.s_icons  li i {
+	font-size: 35px;
+}
+.cus_and{
+	width: 90%;
+	height: 90%;
+	margin-bottom: 20px;
+}
+/*Slider End*/
+				
+/*Feature Starts*/
+ .feature{
+ 	  padding-top: 50px;
+ 	  padding-bottom: 70px;
+ 	}
+ 	.c_h1{
+      font-size: 25px;
+}
+.c_p{
+	font-size: 18px;
+	}
+.c_mt{
+	margin-top: 25px;
+}
+.f_icon i {
+    font-size: 40px;
+ }
+.f_text {
+    text-align: center;
+}
+.f_text h2 {
+    margin-bottom: 5px;
+    font-size: 20px;
+ }
+ 				/*Feature End*/
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
 					.menu ul li a {
     				text-align: right;
    					margin: 5px 0px 0px;
-    
+     				}
+ 				/*Feature Starts*/
+ 				.feature{
+ 					padding-top: 80px;
+ 					padding-bottom: 100px;
  				}
+ 				.f_text {
+    text-align: center;
+}
+ 			.c_mt {
+    margin-top: 40px;
+}
+ 				/*Feature End*/
 }
 
 /* Large devices (desktops, 992px and up)*/

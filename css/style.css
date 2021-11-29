@@ -21,7 +21,7 @@ header{
 .menu{}
 .menu ul li{}
 .menu ul li a{
-	margin: 0 30px;
+	margin: 0 35px;
 	font-size: 22px;
 	font-weight: 700;
 	color: #010101 !important;
@@ -37,23 +37,102 @@ header{
 /*Slider Starts*/
 .slider{
 	background-color: #fcdb00;
-
+	padding-bottom: 100px;
 }
+/*Indicator Starts*/
+.cid {
+     bottom: -75px;
+    
+}
+.cid [data-bs-target] {
+    
+    width: 15px;
+    height: 15px;
+   border-radius: 50%;
+   /*background-color: #fff;
+   opacity: 0.5;*/
+   
+    }
+/*Indicator Ends*/
 .s_text{
+	margin-top: 70px;
 	color: #010101;
 }
 .s_text h1{
+	margin: 0;
 	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
 }
 .s_text h2{
-	font-size: 20px;
-	color: #898989;
+	margin: 15px 0;
+	font-size: 21px;
+	font-weight: 400;
+	color: #313841;
+	letter-spacing: 1px;
 }
 .s_text p{
-	color: #898989;
+	margin-bottom: 35px;
+	color: #555555;
+	line-height: 22px;
 }
-.s_text ul li {
+.s_icons{}
+.s_icons li{
+	margin-right: 35px !important;
+}
+.s_icons  li i {
 	font-size: 42px;
+	color: ;
 	
 }
+.cus_and{
+	margin-bottom: 22px;
+
+}
+.s_image{
+	text-align: center;
+
+}
+
 /*Slider Ends*/
+/*Feature Starts*/
+.feature{
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+.c_title{}
+.c_h1{
+	margin-bottom: 15px;
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+}
+.c_p{
+	font-size: 20px;
+	color:#313841 ;
+	line-height: 22px;
+}
+.c_mt{
+	margin-top: 70px;
+}
+.f_icon{}
+.f_icon i{
+	font-size: 50px;
+	color: #010101 ;
+}
+.f_text{
+
+}
+.f_text h2{
+	margin-bottom: 15px;
+	font-size: 22px;
+	font-weight: 400;
+	color: #010101;
+}
+.f_text p{
+	line-height: 22px;
+	letter-spacing: 1px;
+}
+
+
+/*Feature Ends*/

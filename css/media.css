@@ -1,5 +1,12 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
+body{
+	padding-top: 89px;
+}
+.c_padding{
+ 	padding-top: 50px;
+ 	padding-bottom: 70px;
+ 	}
 header {
          padding: 10px 0;
 	   }
@@ -51,10 +58,7 @@ header {
 /*Slider End*/
 
 /*Feature Starts*/
- .feature{
- 	padding-top: 50px;
- 	padding-bottom: 70px;
- 	}
+ 
  	.c_h1{
  		margin-bottom: 10px;
         font-size: 25px;
@@ -76,10 +80,51 @@ header {
     font-size: 20px;  
 }
  				/*Feature End*/
+/*Contact Start*/
+.c_form{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.cust_input{
+	height: 45px;
+	padding: 10px 10px;
+
+}
+.cust_butt{
+	height: 45px;
+}
+.c_icon li{
+	margin-right: 25px !important;
+}
+.c_icon li i {
+    font-size: 38px;
+    }
+ 				/*Contact End*/
+ 				/*Footer Starts*/
+.footer{
+	padding-bottom: 70px;
+}
+.f_1{
+	text-align: center;
+	
+}
+.f_2{
+	text-align: center;
+	margin-top: 40px;
+}
+ 				/*Footer Ends*/
 }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
+					
+body{
+	padding-top: 89px;
+}
+.c_padding{
+ 	  padding-top: 50px;
+ 	  padding-bottom: 70px;
+ 	}
 					header {
                     padding: 10px 0;
 }
@@ -129,10 +174,7 @@ header {
 /*Slider End*/
 				
 /*Feature Starts*/
- .feature{
- 	  padding-top: 50px;
- 	  padding-bottom: 70px;
- 	}
+ 
  	.c_h1{
       font-size: 25px;
 }
@@ -153,18 +195,54 @@ header {
     font-size: 20px;
  }
  				/*Feature End*/
+ 				/*Contact Start*/
+.c_form{
+	margin-top: 35px;
+	margin-bottom: 40px;
+}
+.cust_input{
+	height: 45px;
+	padding: 10px 10px;
+
+}
+.cust_butt{
+	height: 45px;
+}
+.c_icon li{
+	margin-right: 25px !important;
+}
+.c_icon li i {
+    font-size: 40px;
+    }
+
+ 				/*Contact End*/
+
+ 				/*Footer Starts*/
+.footer{
+	padding-bottom: 70px;
+}
+.f_1{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.f_2{
+	text-align: center;
+}
+ 				/*Footer Ends*/
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
+					.c_padding {
+ 					padding-top: 80px;
+ 					padding-bottom: 100px;
+ 				}
+
 					.menu ul li a {
     				text-align: right;
    					margin: 5px 0px 0px;
      				}
  				/*Feature Starts*/
- 				.feature{
- 					padding-top: 80px;
- 					padding-bottom: 100px;
- 				}
+ 				
  				.f_text {
     text-align: center;
 }
@@ -172,8 +250,20 @@ header {
     margin-top: 40px;
 }
  				/*Feature End*/
-}
+ 				/*Contact Start*/
+ 				.c_form {
+    				margin-top: 65px;
+    				margin-bottom: 70px;
+    			}
 
+ 				/*Contatct End*/
+
+}
+/*Footer Starts*/
+footer {
+    
+    padding-bottom: 100px;
+/*Footer Ends*/
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
 				.box{
